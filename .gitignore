@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.py[cod]
+
+# Virtual environments
 .env
 .venv
 venv/
@@ -10,12 +13,16 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data files
+# Data files (do not commit raw datasets)
 data/raw/*
-!data/raw/README.md
+data/processed/*
 
-# OS
+# OS files
 .DS_Store
 
 # VS Code
 .vscode/
+
+# Mac / Linux temp files
+*.swp
+*.swo
